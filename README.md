@@ -1,4 +1,4 @@
-scoreflex-android-samples
+Scoreflex Android Samples
 =========================
 
 Scoreflex Android Samples
