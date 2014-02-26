@@ -240,6 +240,7 @@ public class MainActivity extends Activity {
 
   // Function to deinitialize the realtime session, if needed
   private void stopRealtimeSession() {
+    ((Button)findViewById(R.id.stop_button)).setEnabled(false);
     if (Session.isInitialized()) {
       logInfo("Realtime session deinitializing...");
       Session.deinitialize();
@@ -287,6 +288,11 @@ public class MainActivity extends Activity {
             + Session.getTcpHeartbeatTimeout() + " msecs\n"
             + "      - UDP heartbeat timeout:  "
             + Session.getUdpHeartbeatTimeout() + " msecs");
+
+    // ################################################################
+    // THIS SAMPLE ENDS HERE. CHECKOUT 'RealtimeConnectionManagement'
+    // SAMPLE FOR THE NEXT STEPS.
+    // ################################################################
   }
 
 
