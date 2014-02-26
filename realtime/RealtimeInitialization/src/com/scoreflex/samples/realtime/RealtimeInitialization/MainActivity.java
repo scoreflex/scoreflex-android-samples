@@ -45,8 +45,8 @@ public class MainActivity extends Activity {
   /*********************** Scoreflex identifiers ************************/
   /**********************************************************************/
   // FILL THESE VARIABLES
-  private final String  APP_CLIENT_ID     = "91ece54c54e2de541e90bc4ae425483877b3b9c9";
-  private final String  APP_CLIENT_SECRET = "0e41ce0e918f8d7a96879fa7f58a3a2683d02b5387953de1a238e57b50cdf838";
+  private final String  APP_CLIENT_ID     = "...";
+  private final String  APP_CLIENT_SECRET = "...";
   private final boolean APP_USE_SANDBOX   = true;
 
   /**********************************************************************/
